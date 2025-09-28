@@ -3,6 +3,8 @@ package com.example.tpo3moviles.modelo;
 public class Producto {
     private String nombre;
     private String descripcion;
+    private double precio;
+
 
     public Producto(String nombre, String descripcion) {
         this.nombre = nombre;
