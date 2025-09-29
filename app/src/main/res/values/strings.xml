@@ -13,4 +13,6 @@
     <string name="Cargar">Cargar</string>
     <string name="Listar">Listar</string>
     <string name="Salir">Salir</string>
+    <string name="Modificar">Modificar</string>
+    <string name="Detalles">Detalles</string>
 </resources>
