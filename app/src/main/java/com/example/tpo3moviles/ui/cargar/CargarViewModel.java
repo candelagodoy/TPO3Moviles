@@ -44,25 +44,25 @@ public class CargarViewModel extends AndroidViewModel {
             duplicado = listaProductos.contains(new Producto(codigo,descripcion,precio1));
 
         }catch (NumberFormatException e){
-            mensaje.append("debe ser in numero");
+            mensaje.append("El precio debe ser un número \n");
             valido = false;
         }
 
         if(duplicado){
-            mensaje.append("El codigo ingresado ya exite");
+            mensaje.append("El código ingresado ya exite \n");
             valido = false;
         }
 
         if(codigo.isBlank()){
-            mensaje.append("El campo código no puede estar vacio");
+            mensaje.append("El campo código  no puede estar vacio \n");
             valido = false;
         }
         if(descripcion.isBlank()){
-            mensaje.append("El campo descripción no puede estar vacio");
+            mensaje.append("El campo descripción no puede estar vacio \n");
             valido = false;
         }
         if(precio.isBlank()){
-            mensaje.append("El campo precio no puede estar vacio");
+            mensaje.append("El campo precio no puede estar vacio \n");
             valido = false;
         }
 
