@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_gallery">
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.tpo3moviles.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="com.example.tpo3moviles.ui.cargar.CargarFragment"
+        android:label="@string/Cargar"
+        tools:layout="@layout/fragment_cargar" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.tpo3moviles.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.example.tpo3moviles.ui.listar.ListarFragment"
+        android:label="@string/Listar"
+        tools:layout="@layout/fragment_listar" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.tpo3moviles.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.example.tpo3moviles.ui.salir.SalirFragment"
+        android:label="@string/Salir"
+        tools:layout="@layout/fragment_salir" />
 </navigation>
