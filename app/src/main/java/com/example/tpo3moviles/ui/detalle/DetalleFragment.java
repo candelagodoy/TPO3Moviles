@@ -60,6 +60,7 @@ public class DetalleFragment extends Fragment {
                 String descripcion = binding.etDescripcionModificacion.getText().toString();
                 String precio = binding.etPrecioModificacion.getText().toString();
                 mViewModel.cargarProductos(codigo,descripcion,precio);
+                //getActivity().onBackPressed();
             }
         });
         mViewModel.getMMensaje().observe(getViewLifecycleOwner(), new Observer<String>() {

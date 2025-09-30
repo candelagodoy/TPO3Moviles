@@ -66,10 +66,10 @@ public class DetalleViewModel extends AndroidViewModel{
             valido = false;
         }
 
-        if(duplicado){
+       /* if(duplicado){
             mensaje.append("El código ingresado ya exite \n");
             valido = false;
-        }
+        }*/
 
         if(codigo.isBlank()){
             mensaje.append("El campo código  no puede estar vacio \n");
